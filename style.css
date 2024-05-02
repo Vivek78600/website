@@ -1,668 +1,936 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 * {
     box-sizing: border-box;
 }
 
 body {
-    /* background-color: palegoldenrod; */
+    /* background-color: rebeccapurple; */
 }
 
-.menu {
-    /* background-color: palegreen; */
+.man-11 {
+    background-image: url(images/hero-bg.jpg);
+    background-size: cover;
+    height: 100vh;
     width: 100%;
-    height: 100px;
+    /* float: left; */
 }
 
-.offcanvas-top {
-    /* background-color: palevioletred; */
-    margin-top: 105px;
+.main-1 {
+    /* background-color: turquoise; */
+    z-index: 1000;
+    width:100%;
+    height: 110px;
+    background-color: rgba(18, 18, 18, 0.8);
+    position: fixed;
 }
 
-.offcanvas-body {
-    /* background-color: cadetblue; */
+.main-text {
+    /* background-color: palegreen; */
+    background-color: rgba(38, 38, 38, 0.8);
+    justify-content: space-between;
 }
 
-.logo {
-    background-color: orange;
+.box-2 {
+    /* background-color:orange; */
+    color: #fff;
+    height: 30px;
 }
 
 .box-1 {
-    background-color: steelblue;
+    /* background-color: red; */
+    height: 30px;
 }
 
-.boat-p {
-    background-color: royalblue;
-    width: auto;
+.text-1 {
+    /* background-color: blue; */
+    padding-left: 10px;
+    padding-top: 5px;
+    color: #fff;
 }
 
-.gift {
-    background-color: seagreen;
-    width: auto;
-}
-
-.corporate {
-    background-color: crimson;
-}
-
-.more {
-    background-color: purple;
-}
-
-.nav-2 {
-    background-color: peru;
-}
-
-.search {
-    background-color: red;
-    border: 2px solid black;
-    border-radius: 20px;
-    width: auto;
-}
-
-.search input {
-    border: none;
-    outline: none;
-    padding-left: 4px;
-    background-color: teal;
-    border-radius: 20px;
-    /* color: red; */
-}
-
-.logo-2 {
-    /* background-color: palevioletred; */
-    margin-left: 30px;
-}
-
-.main-2 {
-    background-color: seagreen;
-}
-
-.main-3 {
-    background-color: coral;
-    height: 450px;
-    padding-left: 50px;
-}
-
-.explore {
-    background-color: purple;
-    font-size: 30px;
-    padding-left: 40px;
-}
-
-@media (min-width:1150px) and (max-width:1230px) {
-    .explore {
-        background-color: papayawhip;
-        font-size: 30px;
-    }
-}
-
-.explore span {
+.img-1 {
     /* background-color: orange; */
-    font-weight: bold;
+    color: goldenrod;
 }
 
-.card-1 {
-    background-color: peru;
-    object-fit: cover;
-    max-height: 100%;
-    max-width: 100%;
-}
-
-@media (min-width:1150px) and (max-width:1230px) {
-    .card-1 {
-        background-color: rgb(115, 205, 63);
-        /* width:auto; */
-    }
-}
-
-.text {
-    /* background-color: violet; */
-    font-weight: bold;
-}
-
-.card-1 video {
-    /* background-color: red; */
-    border-radius: 20px;
-}
-
-.vd {
-    background-color: palevioletred;
-    border-radius: 20px;
-    width: 80%;
-}
-
-.main-4 {
-    background-color: red;
-}
-
-.main4-p1 {
-    background-color: rebeccapurple;
-}
-
-.ipl {
-    /* background-color: palevioletred; */
-    /* width: 1340px; */
-}
-
-.ipl-text1 {
-    background-color: springgreen;
-    padding-left: 30px;
-    font-size: 20px;
-}
-
-.ipl-text2 {
-    background-color: rgb(240, 11, 11);
-    padding-left: 110px;
-    font-size: 20px;
-    color: rgb(0, 132, 255);
-}
-
-.ipl-text2 span {
-    border-radius: 50px;
-    background-color: purple;
-    width: 200px;
-    height: 200px;
-}
-
-.img-m4 {
-    background-color: paleturquoise;
-    background-image: url(images/Strip_Web_1_1600x.webp);
-    border-radius: 20px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* width: 1340px; */
-    height: 150px;
-}
-
-.timer {
-    /* background-color: slateblue; */
-    font-size: 40px;
-    margin-left: 500px;
-    padding-top: 40px;
-}
-
-.cards-m4 {
-    /* background-color: slategray; */
-    height: 420px;
-}
-
-.card-1m4 {
-    /* background-color: sandybrown; */
-    width: 300px;
-    height: 320px;
-}
-
-.avilable {
-    background-color: rgb(27, 26, 26);
-    font-size: 15px;
-    color: aliceblue;
-    border-radius: 0px 5px 5px 0px;
-    float: left;
-    margin-top: 20px;
-}
-
-.imgm41 {
-    background-image: url(images/Nirvana_Ion.webp);
-    height: 320px;
-    width: 300px;
-    background-size: cover;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.imgm42 {
-    background-image: url(images/airpods\ 131.webp);
-    height: 320px;
-    width: 300px;
-    background-size: cover;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.imgm43 {
-    background-image: url(images/airdrop\ 161.webp);
-    height: 320px;
-    width: 300px;
-    background-size: cover;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.imgm44 {
-    background-image: url(images/boAt-Rockerz-255-Max.webp);
-    height: 320px;
-    width: 300px;
-    background-size: cover;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.nirvana {
-    background-color: rgb(221, 221, 221);
-    height: 90px;
-    z-index: 0;
-    border-radius: 0px 0px 10px 10px;
-    position: absolute;
-    width: 300px;
-}
-
-.nir-text1 {
-    background-color: gold;
-    border-radius: 10px;
-    margin-left: 60px;
-    margin-top: -10px;
-}
-
-.nir-text2 {
-    /* background-color: seagreen; */
-}
-
-.nir-box1 {
-    /* background-color: turquoise; */
-}
-
-.star {
-    /* background-color: red; */
-    font-size: 15px;
-}
-
-.nir-box2 {
-    /* background-color:paleturquoise; */
-}
-
-.dot {
-    /* background-color: rgb(161, 11, 36); */
-    margin-left: 110px;
-}
-
-.dot1 {
-    /* color:blueviolet; */
-}
-
-.nirb1t {
-    /* background-color: purple; */
-}
-
-.nirb2t {
-    /* background-color:rgb(26, 56, 225); */
-}
-
-.nir-box2 button {
-    background-color: rgb(15, 15, 15);
-    color: aliceblue;
-    border-radius: 5px;
-}
-
-.stext1 {
-    /* background-color: peru; */
-    font-size: 15px;
-}
-
-.stext2 {
-    /* background-color:palegoldenrod; */
-    font-size: 15px;
-}
-
-.star .stext {
-    /* background-color: palevioletred; */
-}
-
-.stext22 {
-    /* background-color: teal; */
-    margin-left: 5px;
-}
-
-.main-5 {
-    background-color: palegoldenrod;
-}
-
-.new-launches {
-    font-size: 20px;
-    /* background-color: purple; */
-}
-
-.launches {
-    /* background-color: chartreuse; */
-    font-weight: bold;
-    margin-left: 3px;
-}
-
-.imgm51 {
-    background-image: url(images/AD_Supreme_1.webp);
-    height: 320px;
-    width: 300px;
-    background-size: cover;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.imgm52 {
-    background-image: url(images/Nirvana_Eutopia.webp);
-    height: 320px;
-    width: 300px;
-    background-size: cover;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.imgm53 {
-    background-image: url(images/AB_5400D.webp);
-    height: 320px;
-    width: 300px;
-    background-size: cover;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.imgm54 {
-    background-image: url(images/Stone_Spinx_Pro.webp);
-    height: 320px;
-    width: 300px;
-    background-size: cover;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.main-6 {
-    /* background-color: teal; */
-}
-
-.m6logos {
-    background-color: cadetblue;
-}
-
-.m6-1logo {
-    background-color: slateblue;
-}
-
-.m6-1logo p {
-    background-color: palegreen;
-}
-
-.main-7 {
-    background-color: skyblue;
-}
-
-.m7-cards {
-    background-color: tomato;
-}
-
-.m7-img {
-    background-color: seagreen;
-    width: 322px;
-}
-
-@media (min-width:1150px) and (max-width:1230px) {
-    .m7-img {
-        background-color: palevioletred;
-        width: 330px;
-    }
-}
-
-.for-fitnes {
-    /* background-color: tomato; */
-    height: 90px;
-    border-radius: 120px;
-}
-
-.textm7 {
-    background-color: #eff4f7;
-    text-align: center;
-    width: 322px;
-    border-radius: 0px 0px 15px 15px;
-}
-
-.main-8 {
-    /* background-color: rebeccapurple; */
-    height: 60vh;
-    width: 100%;
-}
-
-.blogs {
-    /* background-color: paleturquoise; */
-    width: 80px;
-    font-size: 30px;
-    font-weight: bold;
-    border-bottom: 3px solid red;
-}
-
-.popular {
-    /* background-color: peru; */
-    width: 220px;
-}
-
-.popular button {
-    background-color: rgb(197, 197, 197);
-    border-radius: 20px;
-    font-weight: bold;
-    width: 100px;
-    border: none;
-}
-
-.card-1m8 {
-    background-color: whitesmoke;
-    width: 335px;
-    border-radius: 10px;
-}
-
-.m8img {
-    /* background-color: rgb(0, 135, 9); */
-    background-image: url(images/m8img1.webp);
-    background-size: cover;
-    border-radius: 10px 10px 0px 0px;
-    width: 335px;
-    height: 140px;
-
-}
-
-.m8img2 {
-    /* background-color: rgb(0, 135, 9); */
-    background-image: url(images/m8img2.webp);
-    background-size: cover;
-    border-radius: 10px 10px 0px 0px;
-    width: 335px;
-    height: 140px;
-}
-
-.m8img3 {
-    /* background-color: rgb(0, 135, 9); */
-    background-image: url(images/m8img3.webp);
-    background-size: cover;
-    border-radius: 10px 10px 0px 0px;
-    width: 335px;
-    height: 140px;
-
-}
-
-.m8img4 {
-    /* background-color: rgb(0, 135, 9); */
-    background-image: url(images/m8img4.webp);
-    background-size: cover;
-    border-radius: 10px 10px 0px 0px;
-    width: 335px;
-    height: 140px;
-
-}
-
-.textm8 {
-    background-color: steelblue;
-    width: 335px;
-    height: 179px;
-    border-radius: 0px 0px 15px 15px;
-    /* text-align: center; */
-}
-
-@media (min-width:1150px) and (max-width:1230px) {
-
-    .m8img {
-        /* background-color: rgb(0, 135, 9); */
-        background-image: url(images/m8img3.webp);
-        background-size: cover;
-        border-radius: 10px 10px 0px 0px;
-        width: 300px;
-        height: 140px;
-
-    }
-
-    .m8img2 {
-        /* background-color: rgb(0, 135, 9); */
-        background-image: url(images/m8img3.webp);
-        background-size: cover;
-        border-radius: 10px 10px 0px 0px;
-        width: 300px;
-        height: 140px;
-
-    }
-
-    .m8img3 {
-        /* background-color: rgb(0, 135, 9); */
-        background-image: url(images/m8img3.webp);
-        background-size: cover;
-        border-radius: 10px 10px 0px 0px;
-        width: 300px;
-        height: 140px;
-
-    }
-
-    .m8img4 {
-        /* background-color: rgb(0, 135, 9); */
-        background-image: url(images/m8img4.webp);
-        background-size: cover;
-        border-radius: 10px 10px 0px 0px;
-        width: 300px;
-        height: 140px;
-
-    }
-
-    .textm8 {
-        background-color: blue;
-        width: 300px;
-        height: 179px;
-        border-radius: 0px 0px 15px 15px;
-        /* text-align: center; */
-    }
-
-    .gaming-text2 {
-        background-color:palegreen;
-        font-size: 18px;
-    }
-    
-    .gaming-text3 {
-        background-color: rgb(203, 33, 90);
-        font-size:18px;
-    }
-
-}
-
-.gaming-text {
-    background-color: palevioletred;
-    font-size: 20px;
-    width:300px;
-}
-
-.gaming-text2 {
-    background-color: palevioletred;
-    font-size: 19px;
-}
-
-.gaming-text3 {
-    background-color: palevioletred;
-    font-size: 20px;
-}
-
-.read {
-    /* background-color: springgreen; */
-}
-
-.read-button {
-    /* background-color: red; */
-    border-radius: 20px;
-    margin-top: 3px;
-    width: 300px;
-    height: 37px;
-}
-
-.date {
-    /* background-color: rgb(144, 144, 144); */
-    color: rgb(151, 151, 151);
-}
-
-.why-text {
-    /* background-color: palegreen; */
-    font-size: 15px;
-    padding-top: 8px;
-}
-
-.why-text1 {
-    /* background-color: palegreen; */
-    font-size: 15px;
-    padding-top: 4px;
-}
-
-.main-9 {
-    /* background-color: red; */
-}
-
-.m9-text {
-    /* background-color: palegreen; */
-}
-
-.caro {
-    background-color: rgb(231, 251, 255);
-    height: 200px;
-}
-
-.m9-img {
-    background-color: #d0d9de;
-    height: 200px;
-}
-
-.coma {
-    /* background-color: red; */
-    font-size: 32px;
-}
-
-.m9text {
-    text-align: center;
-    color: #666;
-    font-size: 20px;
-}
-
-.main-10 {
-    background-color: rgb(226, 246, 255);
-    height: auto;
-}
-
-.subscribe {
-    /* background-color: coral;       */
-}
-
-.alerts {
-    /* background-color:teal; */
-}
-
-.m10-box1 {
-    /* background-color: red; */
-}
+.text-2 {
+    /* background-color: orange; */
+    /* padding-top: 5px; */
+    color: #fff;
 
-.m10-box1 ul {
-    /* background-color: aquamarine; */
-    list-style: none;
 }
 
 .main-11 {
-    background-color: rgb(252, 252, 252);
+    /* background-color: violet; */
+    height: 80px;
 }
 
-.m11-b1 {
-    /* background-color: turquoise; */
+.nav {
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    height: 80px;
 }
 
-.m11-box1 {
-    /* background-color: yellow; */
+.navbar-brand {
+    background-color: orangered;
+    color: #fff;
+    font-size: 25px;
+    /* margin-left:50px; */
 }
 
-.m11-box1 ul {
+.navbar-nav {
+    background-color: red;
+    color: #fff;
+    /* margin-left: 100px; */
+}
+
+.mnu {
+    background-color: teal;
+}
+
+.navbar-nav li {
+    /* background-color:palevioletred; */
+    /* color:goldenrod; */
+
+}
+
+.tabl {
+    /* background-color: rebeccapurple; */
+}
+
+.book {
+    /* background-color: purple; */
+    border: solid goldenrod;
+    color: #fff;
+    width: 140px;
+    border-radius: 50px;
+}
+
+.book:hover {
+    background-color: goldenrod;
+    border: none;
+    width: 140px;
+    border-radius: 50px;
+}
+
+.continue {
+    /* background-color: steelblue; */
+    width: 100%;
+    height: 100%;
+}
+
+.contnue-1 {
+    /* background-color: rgb(252, 76, 0); */
+    height: 100vh;
+    background-color: rgba(18, 18, 18, 0.8);
+    padding-top: 280px;
+    padding-left: 100px;
+}
+
+.text-con {
+    /* background-color: springgreen; */
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.food {
+    /* background-color:red; */
+    font-family: "Merriweather", serif;
+    font-size: 25px;
+}
+
+.textcon2 {
+    /* background-color: yellowgreen; */
+}
+
+.circle {
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.play {
+    /* background-color: #fff; */
+    color: #fff;
+}
+
+.button-1 {
+    /* background-color: rgb(12, 232, 232); */
+    border-radius: 50px;
+    /* width:50%; */
+    color: red;
+    height: 50px;
+}
+
+.button-2 {
+    /* background-color: rgb(12, 232, 232); */
+    border-radius: 50px;
+    /* width:50%; */
+    color: red;
+    height: 50px;
+}
+
+.button-1 button {
+    /* background-color:palegreen; */
+    border: 3px goldenrod solid;
+    border-radius: 30px;
+    width: 150px;
+}
+
+.button-2 button {
+    /* background-color:palegreen; */
+    border: 3px goldenrod solid;
+    border-radius: 30px;
+    width: 150px;
+}
+
+.continue-2 {
+    /* background-color: sienna; */
+    height: 100vh;
+    background-color: rgba(18, 18, 18, 0.8);
+}
+
+.img-m2 {
+    background-image: url(images/about-bg.jpg);
+    background-size: cover;
+    height:50%;
+    width: 100%;
+    z-index: -100;
+    position: fixed;
+    top: 0;
+}
+
+.main-2 {
+    /* background-color: rgb(234, 230, 9); */
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.m-box1 {
+    /* background-color: seagreen; */
+    background-color: rgba(18, 18, 18, 0.8);
+    height: 100%;
+    padding-top: 130px;
+}
+
+.boxm1 {
+    /* background-color: teal; */
+    /* position: relative; */
+}
+
+.text-m22 {
+    /* background-color: red; */
+    font-size: 30px;
+    font-family: "PT Serif", serif;
+    padding-left: 40px;
+    color: #fff;
+}
+
+.text-m2 {
+    /* background-color: violet; */
+    font-size: 20px;
+    color: #fff;
+    padding-left: 40px;
+}
+
+.text-m23 {
+    /* background-color:pink; */
+    font-size: 22px;
+    font-family: "PT Serif", serif;
+    padding-left: 40px;
+    color: #fff;
+}
+
+.fa-check {
+    /* background-color: gold; */
+    color: goldenrod;
+}
+
+.lorem {
+    /* background-color: slategray; */
+    font-style: italic;
+    font-size: 20px;
+}
+
+.frame {
+    /* background-color: aquamarine; */
+    background-color: rgba(18, 18, 18, 0.8);
+}
+
+.m-box2 {
+    /* background-color: orange; */
+    background-image: url(images/about.jpg);
+    background-size: cover;
+    border: 5px rgb(79, 79, 79) solid;
+    width: 90%;
+    height: 70vh;
+}
+
+.main-3 {
+    /* background-color: tan; */
+    background-color: rgb(10, 10, 10);
+    /* position: relative; */
+}
+
+.man-3 {
+    /* background-color: violet; */
+}
+
+.boxm3 {
+    /* background-color: blueviolet; */
+    height: 60vh;
+}
+
+.why {
+    /* background-color: slategray; */
+    height: 20vh;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 60px;
+}
+
+.choose {
+    /* background-color: cadetblue; */
+    color: gold;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.card {
+    background-color: rgb(10, 10, 10);
+    /* background-color: teal; */
+}
+
+.card1 {
+    background-color: rgb(43, 43, 43);
+    height: 30vh;
+    width: 435px;
+}
+
+.number {
+    /* background-color: aqua; */
+    width: 150px;
+    color: goldenrod;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.loremc1 {
+    /* background-color: red; */
+    color: #fff;
+    width: 200px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Ulamco {
+    /* background-color: violet; */
+    color: #fff;
+    width: 400px;
+}
+
+.main-4 {
+    background-color: rgb(35, 35, 35);
+    height: 870px;
+}
+
+.red {
+    /* background-color: yellowgreen; */
+}
+
+.menu {
+    /* background-color: teal; */
+}
+
+.menu ul li {
+    /* background-color: steelblue; */
     display: inline;
-    list-style: none;
+    color: #fff;
+    padding-left: 20px;
 }
 
-.m11-box1 li {
-    color: #666;
+.menu ul li:hover {
+    color: goldenrod;
 }
 
-.m11-text {
-    /* background-color: chartreuse; */
-    font-weight: 450;
+.boxm4-1 {
+    /* background-color: springgreen; */
+    padding-left: 150px;
+}
+
+.circlem4 {
+    /* background-color: cornflowerblue; */
+    width: 12%;
+    height: 100%;
+}
+
+.m4 {
+    /* background-color: red; */
+}
+
+.m5 {
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+.textt {
+    /* background-color:palevioletred; */
+    color: #fff;
+    display: flex;
+}
+
+.nerada {
+    width: 25vw;
+    /* background-color: yellowgreen; */
+}
+
+.spa {
+    /* background-color: purple; */
+}
+
+.boxm4-2 {
+    /* background-color: darkblue; */
+    padding-left: 100px;
+}
+
+.main-5 {
+    background-color: rgb(10, 10, 10);
+    height: 427px;
+}
+.scrollspy-example{
+    background-color: royalblue;
+}
+.carousel .slide {
+    background-color: springgreen;
+}
+
+.box-m51 {
+    /* background-color: aquamarine; */
+    /* padding-left: 200px; */
+}
+
+.box-m52 {
+    background-color: palevioletred;
+}
+.main-55{
+    background-color: red;
+    height: 50vh;
+    overflow: hidden;
+}
+.list-group{
+    background-color: seashell;
+}
+.box-m5s {
+    /* background-color: red; */
+}
+
+.c1 {
+    /* background-color: steelblue; */
+    border-right: 3px solid goldenrod;
+}
+
+.Modi-1 button {
+    background-color: rgb(10, 10, 10);
+    color: #fff;
+    font-size: 20px;
+    width: 313px;
+    height: 50px;
+    border: none;
+}
+
+.Modi-1 button:hover {
+    background-color: goldenrod;
+    color: rgb(24, 24, 24);
+}
+
+.c2 {
+    /* background-color: skyblue; */
+}
+
+.ut-1 {
+    /* background-color: slategrey; */
+    color: #fff;
+    font-size: 30px;
+}
+
+.ut-2 {
+    /* background-color: orange; */
+    color: #a1a1a1;
+    font-style: italic;
+}
+
+.ut-3 {
+    /* background-color: red; */
+    color: #a1a1a1;
+    /* font-size: 30px; */
+}
+
+.c3 {
+    /* background-color: blue; */
+}
+
+.c3 img {
+    /* background-color: blue; */
+    width: 280px;
+    height: 280px;
+}
+
+.imgm6 {
+    background-image: url(images/events-bg.jpg);
+    background-size: cover;
+    height:10
+    0%;
+    width: 100%;
+    z-index: -100;
+    position: fixed;
+    top: 0;
+}
+
+.main-6 {
+    background-color: rgba(18, 18, 18, 0.8);
+    height: 600px;
+}
+
+.circle {
+    background-color: red;
+    border-radius: 50px;
+}
+
+.red {
+    /* background-color: salmon; */
+    margin-top: 100px;
+}
+
+.box-m61 {
+    /* background-color: rebeccapurple; */
+}
+
+.box-m62 {
+    /* background-color:paleturquoise; */
+}
+
+.m6 {
+    background-color: sienna;
+    /* margin-top: 30px; */
+    width: 650px;
+    height: 400px;
+}
+
+.ipsum {
+    /* background-color:orangered; */
+    padding-left: 30px;
+    font-style: italic;
+    color: #fff;
+}
+
+.parties {
+    /* background-color: seagreen; */
+    color: goldenrod;
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.number-m6 {
+    /* background-color: red; */
+    color: #fff;
+    border-bottom: 3px goldenrod solid;
+    width: 100px;
+}
+
+.main-7 {
+    background-color: rgb(10, 10, 10);
+    /* background-color: peachpuff; */
+    height: 550px;
+}
+
+.box-m71 {
+    /* background-color: purple; */
+    /* padding-left: 50px; */
+}
+
+.box-m72 {
+    /* background-color:orange; */
+}
+
+.inp-tag1 {
+    /* background-color: red; */
+    background-color: rgb(10, 10, 10);
+    border: 2px solid goldenrod;
+    color: rgb(255, 230, 167);
+    width: 380px;
+    height: 45px;
+}
+
+.c-box1 {
+    /* background-color: seagreen; */
+    width: 400px;
+}
+
+.c-box2 {
+    /* background-color: seagreen; */
+    width: 1410px;
+    padding-left: 108px;
+}
+
+.inp-tag2 {
+    /* background-color: red; */
+    background-color: rgb(10, 10, 10);  
+    border: 2px solid goldenrod;
+    color: rgb(255, 230, 167);
+    width: 90%;
+    height: 150px;
+}
+
+.table {
+    background-color: goldenrod;
+    color: #fff;
+    border: none;
+    height: 45px;
+    border-radius: 50px;
+    width: 160px;
+}
+
+.table:hover {
+    background-color: rgb(253, 220, 137);
+    color: #fff;
+    border-radius: 50px;
+    /* width:150px; */
+}
+
+.main-8 {
+    background-color: rgb(26, 26, 26);
+    height: 550px;
+}
+
+.box-m81 {
+    /* background-color:violet; */
+    /* padding-left: 50px; */
+}
+
+.redd {
+    /* background-color: violet; */
+    /* background-color: rgba(54, 54, 54, 0.8); */
+    color: #fff;
+    width: 380px;
+    height: 240px;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+
+.card-text1 {
+    background-color: rgba(31, 31, 31, 0.8);
+    /* background-color: slateblue; */
+    display: flex;
+    height: 160px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.card-text2 {
+    /* background-color:blue; */
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    z-index: 10;
+    top: 10;
+    margin-top: 125px;
+    margin-left: 30px;
+}
+
+.card-text2 img {
+    background-color: blue;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    /* z-index:100;
+    top: 10; */
+}
+
+.main-9 {
+    background-color: rgb(35, 35, 35);
+    height: 770px;
+}
+
+.box-m92 {
+    /* background-color: palegreen; */
+}
+
+.box-m9img1 {
+    background-color: red;
+    height: 300px;
+    overflow: hidden;
+}
+
+.box-m9img1 img {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.box-m9img1 img:hover {
+
+    border: 2px rgb(85, 85, 85) solid;
+    transform: scale(1.3);
+}
+
+.main-10 {
+    background-color: rgb(35, 35, 35);
+    height:650px;
+}
+
+.box-m92 {
+    /* background-color: palegreen; */
+}
+.thumb {
+    width:auto;
+    overflow: hidden;
+}
+
+.anim {
+    transition: 0.5s;
+    transform: translateY(100%);
+}
+
+.title {
+    color: red;
+    transition: 0.5s;
+    transform: translateY(-100%);
+}
+
+.author {
+    color: blue;
+}
+
+/* ANIMATE */
+
+.thumb:hover .anim,
+.thumb:hover .title {
+    transform: translateY(0);
+}
+.box-m10text{
+    background-color:rgba(19, 19, 19, 0.7);
+    color: #fff;
+    font-size: 20px;
+    padding-top: 280px;
+    height:400px;
+    text-align: center;
+    background-size: cover;
+}
+/* .box-m10text:hover{
+    background-color:rgb(152, 250, 152,0.2);
+} */
+.Chef{
+    /* background-color: teal; */
+    font-style: italic;
+    font-size:15px;
+}
+.box-m10icon{
+    /* background-color: salmon; */
+}
+.box-m10img1 {
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    background-image: url(images/chefs-1.jpg);
+    /* overflow: hidden; */
+}
+.box-m10img2 {
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    background-image: url(images/chefs-2.jpg);
+    /* overflow: hidden; */
+}
+.box-m10img3 {
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    background-image: url(images/chefs-3.jpg);
+    /* overflow: hidden; */
+}
+.box-m10img1 img:hover {
+    /* border: 2px rgb(85, 85, 85) solid;
+    transform: scale(1.3 ); */
+
+}
+.main-12{
+    background-color: rgb(35, 35, 35);
+    height:520px;
+    /* background-color: seagreen; */
+}
+.box-m121{
+    /* background-color: red; */
+}
+.box-m122{
+    /* background-color:violet; */
+}
+.main-13{
+    background-color: rgb(35, 35, 35);
+    height:400px;
+    border-bottom: 2px solid gold;
+}
+.main-132{
+    /* background-color: sandybrown; */
+    margin-top: 50px;
+}
+.box-m131{
+    /* background-color:palegreen; */
+}
+.box-m132{
+    /* background-color: orangered;     */
+    margin-left: 20px;
+    width:auto;
+}
+.inp-tag3{
+    /* background-color: red; */
+    background-color: rgb(10, 10, 10);
+    border: 2px solid goldenrod;
+    color: rgb(255, 230, 167);
+    /* margin-left:95px; */
+    width:780px;
+    height: 45px;
+}
+.c3-box2{
+    /* background-color:palevioletred; */
+}
+.inp-tag4{
+    /* background-color: red; */
+    background-color: rgb(10, 10, 10);
+    border: 2px solid goldenrod;
+    color: rgb(255, 230, 167);
+    width:780px;
+    height:200px;
+}
+.box-m131{
+    /* background-color: slateblue; */
+}
+.logom131{
+    background-color:goldenrod;
+    margin-top:3px;
+    color:#fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.boxm133{
+    /* background-color: violet; */
+    font-size: 20px;
+}
+.logom13text{
+    /* background-color: pink; */
+    color: #fff;
+}
+.logom13text p{
+    /* background-color: pink; */
+    color:rgb(102, 101, 101);
+    font-size: 15px;
+}
+.table-m13{
+    background-color:goldenrod;
+    border-radius: 20px;
+    /* margin-left: -118px; */
+    color: #fff;
+    border: none;
+}
+.table-m13:hover{
+    background-color:rgb(238, 183, 46);
+    border-radius: 20px;
+}
+.main-14{
+    background-color: rgb(48, 47, 47);
+    height:390px;
+    /* background-color:green; */
+    padding-top: 20px;
+}
+.main-142{
+    /* background-color: sandybrown; */
+    /* margin-top: 50px; */
+}
+.text-1m4{
+    /* background-color: cadetblue; */
+    /* color: steelblue; */
+    font-size:25px;
+}
+.text-2m4{
+    /* background-color: cadetblue; */
+    /* color:purple; */
+    font-size:22px;
+}
+.card-1{
+    /* background-color: rgb(35, 35, 35); */
+    /* background-color: orange; */
+    color: #fff;
+}
+.dot-1{
+    background-color: rgb(35, 35, 35);
+    width:50px;
+    height:50px;
+    border-radius: 25px;
+    font-size: 25px;
+}
+.menuu-1{
+    /* background-color:orange; */
+}
+.menuu-1 ul{
+   /* color:palevioletred; */
+   font-size:20px;
+}
+
+.card-2{
+    /* background-color: rgb(35, 35, 35); */
+    color: #fff;
+    /* background-color:red; */
+}
+.card-3{
+    /* background-color:rgb(244, 5, 85); */
+    /* background-color: rgb(35, 35, 35); */
+    color: #fff;
+}
+.card-4{
+    /* background-color:rgb(255, 234, 0); */
+    /* background-color: rgb(35, 35, 35); */
+    color: #fff;
+}
+.subscribe{
+    border-radius: 20px;
+    width:400px;
+    background-color: rgb(35, 35, 35);
+    height: 45px;
+    margin-top:40px;
+}
+.sub-1{
+    /* background-color: rgb(35, 35, 35); */
+    border: none;
+}
+.sub-1 input{
+    /* background-color: powderblue; */
+    background-color: rgb(35, 35, 35);
+    /* border-radius: 20px; */
+    width:255px;
+    height: 45px;
+    margin-left:50px;
+    /* outline:none; */
+
+}
+.sub-2{
+    /* background-color: teal; */
+    /* border-radius: 20px; */
+    /* margin-left: 10px; */
+    border: none;
+    width:140px;
+    /* padding-left: 40px; */
+    height: 45px;
+}
+.sub-2 button{
+    background-color:goldenrod;
+    border-radius: 30px;
+    width:140px;
+    height: 45px;
+    margin-left: 10px;
 }
